@@ -1,10 +1,11 @@
 "use client";
-import ErrorModal from "@/Components/ErrorModal";
-import Hero from "@/Components/Hero";
-import IPSearcher from "@/Components/IPSearcher";
-import Loader from "@/Components/Loader";
-import Map from "@/Components/Map";
-import Modal from "@/Components/Modal";
+
+import ErrorModal from "@/components/ErrorModal";
+import Hero from "@/components/Hero";
+import IPSearcher from "@/components/IPSearcher";
+import Loader from "@/components/Loader";
+import Map from "@/components/Map";
+import Modal from "@/components/Modal";
 import { useFormSubmit } from "@/utils/useFormSubmit";
 
 export default function Home() {
